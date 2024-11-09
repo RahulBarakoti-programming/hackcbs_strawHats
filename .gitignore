@@ -1,0 +1,33 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiler output
+build/
+dist/
+target/
+
+# Ignore package manager files
+node_modules/
+package-lock.json
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore sensitive files
+*.env
+*.secret
+
+# Ignore Solidity compiler output
+*.abi
+*.bin
