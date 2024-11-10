@@ -1,16 +1,12 @@
 ## Project Name
 
-The Decentralized Identity Marketplace lets individuals control, sell, or license their personal data securely using blockchain. It ensures privacy, transparency, and trust, offering features like escrow, dispute resolution, and project stage management, empowering users and promoting ethical data sharing.
-
+With a Marketplace where users can directly connect with AI companies, individuals can monetize data on their terms and conditions... That’s what Project Luffy is about.
+With the Security and decentralized nature of Project Luffy users can have full confidence that their data is safe and not owned by any single entity.
 
 ## Overview
 
- - [Problem Statement](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Solution](https://github.com/matiassingers/awesome-readme)
- - [Working](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
- ## Launch
- To establish the project
+ - Problem Statement:- With the advancement of new technologies   like AI,Metaverse, and Creator Economy the demand for Data is at its peak but normal users whose data is being used don’t get any benefits from it rather the big companies monetize this data for their personal benefits.
+ - Solution:-With a Marketplace where users can directly connect with AI companies, individuals can monetize data on their terms and conditions. That’s what Project Luffy is about.
 
  ## Appendix
  Any additional information goes here
@@ -20,21 +16,24 @@ The Decentralized Identity Marketplace lets individuals control, sell, or licens
 
  ## Deployment
  To deploy our website
-```bash
+bash
   sudo bash deploy.sh
-```
+
 ## 🛠 Techstacks Used
 
-Javascript, html, CSS, ReactJS...
+Elliptical Encryption | JavaScript | React.js | Node | Hardhat 
 
 ## Installation
 
-Install our-project with npm
+Install our-project 
 
-```bash
-  npm install my-project
-  cd my-project
-```
-## Documentation
+bash
+  cd frontend
+  npm run dev
+  cd ..
+  cd backend
+  npm run dev
+  
+## Overview
 
-(not sure needed and what to add in here!!!)
+ - [Presentation](https://www.canva.com/design/DAGWDCUZ5tA/KLmbtFG_tyY8w_IPL-LneA/view?utm_content=DAGWDCUZ5tA&utm_campaign=designshare&utm_medium=link&utm_source=editor#1)
