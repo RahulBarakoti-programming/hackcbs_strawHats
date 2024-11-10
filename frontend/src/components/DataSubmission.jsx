@@ -7,7 +7,6 @@ function DataSubmission() {
   return (
     <>
       <Background>
-        <Header></Header>
         <div className="mt-11 w-full h-4/5 flex justify-center items-center">
           <DataForm></DataForm>
         </div>
