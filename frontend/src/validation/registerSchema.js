@@ -2,11 +2,8 @@ import { date, number, object, string, } from 'yup';
 
 export let userSchema = object({
   firstName: string().required("Enter Your First Name"),
-  lastName: string().required("Enter Your Last Name"),
   email: string().email("Enter a valid email").required("Enter Your Email"),
   pass: string().required("Create a Password"),
-  publicKey: string().required(),
-  privateKey: string().required(),
   secretPass: string().required("Create a Password"),
 
 });

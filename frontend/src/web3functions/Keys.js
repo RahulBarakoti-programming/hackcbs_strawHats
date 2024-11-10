@@ -8,10 +8,10 @@ export function generateKeyPair() {
   // Generate keys
   const keyPair = ec.genKeyPair();
 
-  // Convert to compact format
+
   return {
-    privateKey: keyPair.getPrivate('hex'),  // 32 bytes private key
-    publicKey: keyPair.getPublic('hex')     // 65 bytes public key (uncompressed)
+    privateKey: keyPair.getPrivate('hex'),
+    publicKey: keyPair.getPublic('hex')
   };
 }
 

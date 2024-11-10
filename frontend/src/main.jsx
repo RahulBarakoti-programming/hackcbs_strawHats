@@ -7,23 +7,42 @@ import Login from "./components/Login.jsx";
 import { PrivateRoute, AuthRoute } from "./components/RouteProtection.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import { Toaster } from "@/components/ui/sonner";
+import DataSubmission from "./components/DataSubmission.jsx";
+import Requests from "./components/Requests.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <PrivateRoute>
-        <Dashboard />
-      </PrivateRoute>
-    ),
+    element: <Dashboard />,
+    // element: (
+    //   <PrivateRoute>
+    //     <Dashboard />
+    //   </PrivateRoute>
+    // ),
   },
   {
     path: "/login",
     element: (
-      <AuthRoute>
-        <Login />
-      </AuthRoute>
+      // <AuthRoute>
+      <Login />
+      // </AuthRoute>
     ),
+  },
+  {
+    path: "/submission",
+    element: <DataSubmission />,
+  },
+  {
+    path: "/requests",
+    element: <Requests />,
+  },
+  {
+    path: "/my-data",
+    element: <Requests />,
+  },
+  {
+    path: "/purchased-data",
+    element: <Requests />,
   },
 ]);
 

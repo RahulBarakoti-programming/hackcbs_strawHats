@@ -9,11 +9,12 @@ export const signupUser = async (userData) => {
     console.log(userData);
 
 
-    // const response = await axios.post(`${API_URL}/auth/signup`, userData, {
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    // });
+    const response = await axios.post(`${API_URL}/auth/signup`, userData, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    localStorage.setItem('secretPass', userData.secretPass);
 
 
     const { token, user } = response.data;
